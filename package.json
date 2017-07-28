@@ -1,0 +1,35 @@
+{
+  "name": "8.2-javascript",
+  "version": "1.0.0",
+  "description": "8.2 Javascript",
+  "main": "index.html",
+  "dependencies": {
+    "npm-git-install": "^0.3.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  },
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkowronekArt/8.2-javascript.git"
+  },
+  "keywords": [
+    "javascript",
+    "grunt",
+    "git"
+  ],
+  "author": "Anna Skowronek-Jaskuła",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SkowronekArt/8.2-javascript/issues"
+  },
+  "homepage": "https://github.com/SkowronekArt/8.2-javascript#readme"
+}
