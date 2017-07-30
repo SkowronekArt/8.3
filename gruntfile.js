@@ -1,6 +1,6 @@
 module.exports = function(grunt) {
 
-  // Project configuration.
+	// Project configuration.
 	grunt.initConfig({
 
 		jshint: {
@@ -9,7 +9,7 @@ module.exports = function(grunt) {
 
 		sass: {
 			options: {
-			sourceMap: true
+				sourceMap: true
 			},
 			dist: {
 				files: {
@@ -46,21 +46,21 @@ module.exports = function(grunt) {
 				},
 				options: {
 					watchTask: true, 
-						server: './app'
+						server: './'
 					}
 				}
 			}
 	});
-		// Load the plugins tasks
+		
 
-
+	// Load the plugins tasks
 	grunt.loadNpmTasks('grunt-contrib-jshint');
 	grunt.loadNpmTasks('grunt-sass');
 	grunt.loadNpmTasks('grunt-contrib-imagemin');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-browser-sync');
 	
-		// Default task(s).
-	grunt.registerTask('default', ['browserSync', 'imagemin', 'watch', 'jshint']);
+	// Default task(s).
+	grunt.registerTask('default', ['browserSync', 'imagemin', 'jshint', 'watch']);
 	
 };
